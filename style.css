@@ -1,15 +1,10 @@
-* {
-    margin: 0;
+footer {
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    background: #fcfcfc;
     font-family: sans-serif;
-}
-
-footer {
+    align-items: center;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -17,8 +12,8 @@ footer {
     background: #111;
     height: auto;
     width: 100vw;
-    padding-top: 40px;
     color: #fff;
+    
 }
 
 .footer-content {
@@ -30,10 +25,10 @@ footer {
 }
 
 .footer-content h3 {
-    font-size: 2.1rem;
+    font-size: 2rem;
     font-weight: 500;
     text-transform: capitalize;
-    line-height: 3rem;
+    line-height: 2rem;
 }
 
 .footer-content p {
@@ -47,7 +42,7 @@ footer {
 .footer-bottom {
     background: #000;
     width: 100vw;
-    padding: 20px;
+    padding:0;
     padding-bottom: 40px;
     text-align: center;
 }
