@@ -17,8 +17,9 @@
     background-color: black;
     width: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
     text-decoration: underline white;
+    /* font-size: 25px; */
 }
 
 .box {
