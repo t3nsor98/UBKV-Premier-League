@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 .small-image {
     width: 250px;
     height: auto;
@@ -19,6 +21,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
     text-decoration: underline white;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
     /* font-size: 25px; */
 }
 
@@ -72,16 +75,34 @@
     text-align: center;
     margin-bottom: 40px;
     margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    
+    
 }
+
+.text-design-p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 20px;
+    margin: 0 0 24px;
+    text-align: center;
+    text-transform: uppercase;
+  
+
+}
+
 
 .ubkv-description {
     margin-top: 10px;
     margin-bottom: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 
 }
 
 .upl-description {
     margin-bottom: 80px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 
 }
 
@@ -98,3 +119,134 @@
 .paragraph-ubkv {
     text-align: justify;
 }
+
+.img-description{
+    text-align: center;
+}
+
+.img-heading {
+    text-align: center;
+}
+
+.photo-card {
+    box-shadow: rgb(159, 93, 79) 0px 20px 30px -10px;
+    border-style: none;
+    
+}
+
+.about-us-img {
+    text-align: center;
+}
+
+.card {
+    border-style: none;
+}
+
+.design-1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3em;
+    position:relative;
+    margin-top: 50px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(gold, gold);
+    background-size: 100% 10px;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    transition: background-size .7s, background-position .5s ease-in-out;
+}
+
+.design-1:hover {
+    background-size: 100% 100%;
+    background-position: 0% 100%;
+    transition: background-position .7s, background-size .5s ease-in-out;
+}
+
+
+/* contact us style */
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-info i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.contact-info p {
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .contact-info {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-info i {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+/* contact us style */
+
+/* tech and design */
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.image-box {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.image-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.image-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-text {
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .image-box {
+        width: 100%;
+    }
+}
+
+/* tech and design */
