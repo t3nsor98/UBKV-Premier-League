@@ -349,3 +349,43 @@
 .button-82-pushable:focus:not(:focus-visible) {
     outline: none;
 }
+
+
+/* team */
+.team-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.team-card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+
+.team-card:hover img {
+    transform: scale(1.2);
+}
+
+.team-details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+}
+
+.team-details h3 {
+    margin-top: 0;
+}
+
+@media (max-width: 767px) {
+    .team-card {
+        height: 400px;
+        
+    }
+}
