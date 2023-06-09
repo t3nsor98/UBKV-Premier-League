@@ -436,3 +436,32 @@
     color: #333;
     text-transform: uppercase;
 }
+
+/* table CSS */
+.table {
+    border-radius: 5px;
+}
+
+.table thead th {
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    background-color: #f5068a;
+}
+
+.table tbody td {
+    text-align: center;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f8f9fa;
+}
+
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+
+.table-bordered td,
+.table-bordered th {
+    border: 1px solid #f9089d;
+}
