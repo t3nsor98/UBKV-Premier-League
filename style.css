@@ -479,6 +479,7 @@
 .team-sponsers{
     text-align: center;
     color: darkmagenta;
+    text-shadow: 10px 10px 10px darkred;
 }
 
 .sponsers-name {
