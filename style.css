@@ -465,3 +465,23 @@
 .table-bordered th {
     border: 1px solid #f9089d;
 }
+
+.table-big{
+    margin-bottom: 100px;
+}
+
+/* sponsers page */
+.sponsers-title{
+    text-align: center;
+    color: darkred;
+}
+
+.team-sponsers{
+    text-align: center;
+    color: darkmagenta;
+}
+
+.sponsers-name {
+    text-align: center;
+    color: firebrick;
+}
